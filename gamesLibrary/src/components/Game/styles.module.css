@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    height: 80%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 54px -39px rgb(255, 255, 255);
+    transition: transform 500ms ease-out, box-shadow 300ms ease-out;
+    cursor: pointer;
+}   
+
+.image:hover {
+    box-shadow: 0px 0px 9px 3px rgba(255, 255, 255, 0.164);
+    transform: scale(1.05); /* Adicionando um leve zoom para a imagem no hover */
+}
+
+.title{
+    font-size: 25px;
+    margin: 0;
+}
+
+.button{
+    margin: 3rem 0rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(255, 0, 0, 0.286);
+    color: white;
+    border: 1px transparent solid;
+    border-radius: 0.305rem;
+    transition: transform 500ms, background-color 500ms;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(255, 0, 0);
+}
+
+.div {
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+    margin-top: 5rem;
+    width: 28rem;
+}
+  

@@ -1,0 +1,11 @@
+.button{
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(0, 255, 34, 0.286);
+    color: white;
+    border: 1px transparent solid;
+    border-radius: 0.305rem;
+    transition: transform 500ms, background-color 500ms;
+    cursor: pointer;
+    font-weight: bold;
+}
